@@ -46,6 +46,42 @@ Repaso de conceptos de Go
 * Complex128 ⇒ Real e Imaginario float64
 * Ejemplo: c := 10 * 8i
 
+## Documentacion oficial
+* https://pkg.go.dev/std
+* https://pkg.go.dev/
+
+## realizar un ciclo en Golang:
+
+For condicional
+For while
+For forever
+For Range
+For con funciones
+For con goto tags
+
+## Operadores de comparacion
+* valor1 == valor2
+* valor1 != valor2
+* valor1 < valor2
+* valor1 > valor2
+* valor1 >= valor2
+* valor1 <= valor2
+
+## Operadores logicos
+#### AND -> &&
+* Este operador indica que todas las condiciones declaradas deben cumplirse para poderse marcar como TRUE. En Go, se utiliza este símbolo &&.
+* 1>0 && 2 >0 Esto retornará TRUE porque tanto la primera como la segunda condición son verdaderas.
+
+#### OR -> ||
+* Este operador indica que al menos una de las condiciones debe cumplirse para marcarse como TRUE. En Go, se representa con el símbolo ||.
+* 2<0 || 1 > 0 Esto retornará TRUE porque la segunda condición se cumple, a pesar que la primera no.
+
+#### NOT -> !
+* Este operador retornará el opuesto al boleano que está dentro de la variable. Ejemplo:
+* myBool :=  true
+* fmt.Println(!myBool)
+
+
 ```go
 package main
 
