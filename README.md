@@ -81,6 +81,20 @@ For con goto tags
 * myBool :=  true
 * fmt.Println(!myBool)
 
+#### Arrays - Slices
+* En Go, los arrays poseen un tamaño fijo y son inmutables, mientras que en 
+* los slices su tamaño es dinámico y los puedes modificar.
+* La diferencia principal entre los arrays es que estos tienen una longitud fija e invariable y deben declarase especifiandola
+```go
+x := [5]int{0, 1 ,2, 3, 4}
+```
+
+* mientras que los Slices tienen una longitud variable y no hay que especificarla en la declaración
+```go
+var x [ ]float64
+x := make([]float64, 5)
+x := make([]float64, 5, 10) //representa un Slice de longitud 5 y capacidad de 10
+```
 
 ```go
 package main
