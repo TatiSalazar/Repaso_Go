@@ -182,5 +182,33 @@ func main() {
 	// el programa asigna un valor por defecto (no coloca nulos)
 }
 ```
+## FrontEnd - Hugo
+* Hugo es el framework más popular para usar Go en el FrontEnd, claro no es que se utilice en FrontEnd específicamente sino que tiene su propio template para generar archivos estáticos (sin BackEnd, solo HTML, CSS y JavaScript).
 
+* Pero la mayor ventaja de Hugo, es que tienen Hugo Themes una tienda de templates donde muchos miembros de la comunidad suben sus temas para disponerlos al resto de la comunidad para su uso, solo debes prestar atención a la licencia. Pero encontrarás temas con todo tipo de features, desde uso para portafolio, compatibilidad con Google Anlytics y mucho más.
 
+* Y si lo combinas con Vercel podrás desplegar tu aplicación de forma gratuita.
+
+## Backend
+* Para el caso de BackEnd tenemos muchas opciones, las que te recomiendo probar son las siguientes:
+
+* **Echo**
+* Echo es el Framework que más he llegado a usar en las Apps en Go que he realizado. Esto porque reúne varias características:
+* Es minimalista, evitando tener código que no vamos a usar
+* Fácil de escalar y un excelente rendimiento al momento de compilar
+* Tiene su sistema de enrutamiento, pudiendo incluso implementar middlewares (proceso de autenticación)
+* Tiene su propia interfaz para implementar websockets (conexiones en tiempo real)
+* Puedes usarlo tanto para crear APIs como páginas web completas.
+* Es uno de los pocos framewords que tiene su propia implementación de JWT (otro tipo de autenticación muy usado en APIs)
+
+* **Gin-Gonic**
+* Gin-Gonic Es un framework al que fácilmente le puedes agarrar cariño y esto es porque la forma como interactúas para crear Apps es muy intuitiva. De momento no es de los Frameworks que más destaque, pero tampoco se queda atrás. Ideal para tus primeros proyectos de BackEnd con Go.
+
+* **Beego**
+* Beego por bastante tiempo llegó a ser uno de los Frameworks más usados, no es que haya dejado de serlo, pero trajo a la comunidad 3 grandes features:
+* Su propio ORM (Object Relational Mapping), básicamente son un conjunto de métodos para interactuar con la base de datos desde consulta a creación de tablas.
+* Un CLI (Command Line Interface) llamado bee con el cual puedes generar proyecto ya sea para hacer una API como página web completa, empaquetar el proyecto listo para llevarlo a producción y hacer migraciones de bases de datos.
+* Un admin, ¡sí un admin! Con el cual puedes ver estadísticas de las rutas de tu app, verificar el estado de la base de datos y ejecutar tareas de forma manual
+* Hoy en día Beego tiene muchos más features como por ejemplo crear el Dockerfile para que tu app se ejecute en Docker. Si vas a crear múltiples apps seguidamente, te recomiendo este Framework.
+
+* ****
