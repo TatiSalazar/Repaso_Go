@@ -112,6 +112,7 @@ x := make([]float64, 5, 10) //representa un Slice de longitud 5 y capacidad de 1
 ```
 
 ## Comandos de Go modules
+```go
 // Inicializar un proyecto
 go mod init path_del_proyecto
 
@@ -132,7 +133,7 @@ go mod tidy
 
 // Aprender más de go modules
 go help mod
-
+```
 
 ```go
 package main
