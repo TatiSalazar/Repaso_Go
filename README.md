@@ -130,3 +130,28 @@ func main() {
 
 }
 ```
+
+
+A Tour of Go
+
+http://tour.golang.com/
+
+
+play-with-go.dev
+
+https://play-with-go.dev/
+
+
+Go by Example
+
+https://gobyexample.com/
+
+
+Slack
+
+http://gophers.slack.com/
+
+
+Spotify
+
+https://open.spotify.com/show/2cKdcxETn7jDp7uJCwqmSE?si=q88UkEYQTxS0t1QVws22tw&amp;nd=1
