@@ -134,6 +134,20 @@ go mod tidy
 // Aprender más de go modules
 go help mod
 ```
+## Zero values de primitivos
+```go
+var a int // 0
+var b float64 // 0
+var c string // ""
+var d bool // false
+```
+
+## Punteros
+```go
+a := 10 // Variable int
+b := &a // "b" es el puntero de "a"
+c := *b // "c" adquiere el valor del puntero de "b", es decir toma el mismo valor de "a"
+```
 
 ```go
 package main
@@ -166,7 +180,6 @@ func main() {
 
 	// si no le asignas el valor a una variable,
 	// el programa asigna un valor por defecto (no coloca nulos)
-
 }
 ```
 
